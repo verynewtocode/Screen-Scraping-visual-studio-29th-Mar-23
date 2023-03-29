@@ -1,4 +1,5 @@
 import os
+
 from locate import this_dir
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -6,6 +7,14 @@ from requests_html import HTMLSession
 from random import randint, choice
 import itertools
 import datetime as dt
+
+
+print("Hi")
+
+
+
+
+
 
 #Change path to retrieve functions
 my_dir=str(this_dir())
